@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                yellow: '#FECC02',
-              },
-              fontFamily: {
-                poppins:["poppins","sans-serif"],
-                montserrat:["montserrat","sans-serif"],
-              },
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              yellow: "#FECC02",
+            },
+            fontFamily: {
+              poppins: ["poppins", "sans-serif"],
+              montserrat: ["montserrat", "sans-serif"],
             },
           },
-        };
-      </script>
+        },
+      };
+    </script>
     <title>Music Production</title>
-
-</head>
-<body>
-   <nav class="flex justify-between px-32 h-20 items-center font-poppins bg-cyan-400 ">
-    <h1 class="text-2xl uppercase font-bold">Music Production</h1>
-    <ul class="flex gap-3 uppercase	">
+  </head>
+  <body>
+    <nav
+      class="flex justify-between px-5 md:px-5 lg:px-32 h-20 items-center font-poppins absolute w-full bg-white"
+    >
+      <h1 class="text-2xl uppercase font-bold">Music Production</h1>
+      <ul class="flex gap-3 text-lg uppercase">
         <li>About us</li>
-        <li>Our Movies</li>
+        <li>Our Musics</li>
         <li>Services</li>
-    </ul>
-   </nav>
-</body> 
+      </ul>
+    </nav>
+
+    <main>
+      <!-- landing section -->
+
+      <section class="bg-red-400 h-screen pt-20 flex items-center">
+        <div class="ml-20 font-poppins">
+          <p class="uppercase font-bold">Music production studio</p>
+          <h1>Musics Made to Perfection</h1>
+          <p class="font-montserrat">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <button>Discover Nore</button>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
